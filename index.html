@@ -5,20 +5,30 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <h1>Chuck Norris Jokes</h1>
-    <div>
-      <label for="category">Select a category:</label>
-      <select id="category">
-        <option value="dev">Developer</option>
-        <option value="animal">Animal</option>
-        <option value="celebrity">Celebrity</option>
-        <option value="money">Money</option>
-        <option value="science">Science</option>
-        <option value="sport">Sport</option>
-      </select>
-    </div>
-    <button id="get-joke">Get a Chuck Norris Joke</button>
-    <div id="joke-container"></div>
+    <img src="tumblr_nz62691MOH1tbcweeo1_400.gif" alt="Chuck Norris Gif" />
+
+    <h1 id="h1">Chuck Norris Jokes</h1>
+
+    <box1 id="box1">
+      <div>
+        <label for="category">Select a category:</label>
+        <select id="category">
+          <option value="dev">Developer</option>
+          <option value="animal">Animal</option>
+          <option value="celebrity">Celebrity</option>
+          <option value="money">Money</option>
+          <option value="science">Science</option>
+          <option value="sport">Sport</option>
+        </select>
+      </div>
+      <div>
+        <label for="search">Search for a joke:</label>
+        <input type="text" id="search" />
+        <button id="search-joke">Search</button>
+      </div>
+      <button id="get-joke">Get a Chuck Norris Joke</button>
+      <div id="joke-container"></div>
+    </box1>
 
     <script src="main.js"></script>
   </body>
