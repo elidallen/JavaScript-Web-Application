@@ -1,9 +1,23 @@
-
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: rgb(228, 211, 181);
-        }
-        #joke-container {
-            margin: 20px;
-        }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(228, 211, 181);
+    display: flex;
+    flex-direction: column; /* Set the direction to column */
+    height: 100vh; /* Use the full viewport height */
+  }
+  #joke-container {
+    margin: 20px;
+  }
+  
+  #box1 {
+    align-items: center; /* Center items horizontally */
+    margin-top: 25px;
+  }
+  
+  img {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
