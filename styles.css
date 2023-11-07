@@ -12,7 +12,12 @@ body {
   
   #box1 {
     align-items: center; /* Center items horizontally */
-    margin-top: 25px;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
   }
   
   img {
